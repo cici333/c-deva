@@ -1,4 +1,0 @@
-P55284,P26231,Q02248,Q99NH2
-P13612,P05556,P49023
-******From: The Comprehensive Resource of Mammalian protein complexes(CORUM) Update: 2012/02/17
-******Identifier: UniProt IDs
