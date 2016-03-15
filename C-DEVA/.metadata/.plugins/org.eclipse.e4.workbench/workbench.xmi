@@ -1,0 +1,1994 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_vzCGIPPGEeSOMOQnBKd7qg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_vzCGIfPGEeSOMOQnBKd7qg" bindingContexts="_vzJa8fPGEeSOMOQnBKd7qg">
+  <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
+  <tags>ModelMigrationProcessor.001</tags>
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_vzCGIfPGEeSOMOQnBKd7qg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_vzCGIvPGEeSOMOQnBKd7qg" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
+    <persistedState key="coolBarVisible" value="true"/>
+    <persistedState key="perspectiveBarVisible" value="false"/>
+    <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
+    <persistedState key="aggregateWorkingSetId"/>
+    <tags>topLevel</tags>
+    <tags>shellMaximized</tags>
+    <children xsi:type="basic:PartSashContainer" xmi:id="_vzCGIvPGEeSOMOQnBKd7qg" selectedElement="_vzCGI_PGEeSOMOQnBKd7qg" horizontal="true">
+      <children xsi:type="advanced:PerspectiveStack" xmi:id="_vzCGI_PGEeSOMOQnBKd7qg" containerData="7500" selectedElement="_vzCGJPPGEeSOMOQnBKd7qg">
+        <children xsi:type="advanced:Perspective" xmi:id="_vzCGJPPGEeSOMOQnBKd7qg" elementId="CDEVA.perspective" selectedElement="_vzCGJfPGEeSOMOQnBKd7qg" label="CDEVA perspective" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/default_persp.gif">
+          <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,"/>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.keyBindings</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_vzCGJfPGEeSOMOQnBKd7qg" selectedElement="_vzCGJvPGEeSOMOQnBKd7qg" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_vzCGJvPGEeSOMOQnBKd7qg" containerData="2500" selectedElement="_vzCGJ_PGEeSOMOQnBKd7qg">
+              <children xsi:type="basic:PartStack" xmi:id="_vzCGJ_PGEeSOMOQnBKd7qg" elementId="CDEVA.view1MStack" containerData="7300" selectedElement="_vzCGKPPGEeSOMOQnBKd7qg">
+                <tags>newtablook</tags>
+                <children xsi:type="advanced:Placeholder" xmi:id="_vzCGKPPGEeSOMOQnBKd7qg" elementId="CDEVA.view1" ref="_vzCGWvPGEeSOMOQnBKd7qg"/>
+              </children>
+              <children xsi:type="basic:PartStack" xmi:id="_vzCGKfPGEeSOMOQnBKd7qg" elementId="left" containerData="2700" selectedElement="_vzCGKvPGEeSOMOQnBKd7qg">
+                <tags>newtablook</tags>
+                <children xsi:type="advanced:Placeholder" xmi:id="_vzCGKvPGEeSOMOQnBKd7qg" elementId="CDEVA.view3" ref="_vzCtMvPGEeSOMOQnBKd7qg"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_vzCGK_PGEeSOMOQnBKd7qg" elementId="CDEVA.view4" ref="_vzCtNfPGEeSOMOQnBKd7qg"/>
+              </children>
+            </children>
+            <children xsi:type="advanced:Placeholder" xmi:id="_vzCGLPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_vzCGV_PGEeSOMOQnBKd7qg"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="basic:PartStack" xmi:id="_vzCGLfPGEeSOMOQnBKd7qg" elementId="stickyFolderRight" toBeRendered="false" containerData="2500">
+        <children xsi:type="advanced:Placeholder" xmi:id="_vzCGLvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.internal.introview" toBeRendered="false" ref="_vzCGVvPGEeSOMOQnBKd7qg"/>
+      </children>
+    </children>
+    <sharedElements xsi:type="basic:Part" xmi:id="_vzCGVvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.internal.introview" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Welcome" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.gif" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+    </sharedElements>
+    <sharedElements xsi:type="advanced:Area" xmi:id="_vzCGV_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.editorss" selectedElement="_vzCGWPPGEeSOMOQnBKd7qg">
+      <children xsi:type="basic:PartStack" xmi:id="_vzCGWPPGEeSOMOQnBKd7qg" elementId="org.eclipse.e4.primaryDataStack">
+        <tags>newtablook</tags>
+        <tags>org.eclipse.e4.primaryDataStack</tags>
+        <tags>EditorStack</tags>
+      </children>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_vzCGWvPGEeSOMOQnBKd7qg" elementId="CDEVA.view1" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Cluster Results" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.gif" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:Other</tags>
+      <tags>activeOnClose</tags>
+      <menus xmi:id="_vzCGW_PGEeSOMOQnBKd7qg" elementId="CDEVA.view1">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_vzCtMPPGEeSOMOQnBKd7qg" elementId="CDEVA.view1" visible="false"/>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_vzCtMvPGEeSOMOQnBKd7qg" elementId="CDEVA.view3" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="CurrentNetwork" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.gif" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:Other</tags>
+      <menus xmi:id="_vzCtM_PGEeSOMOQnBKd7qg" elementId="CDEVA.view3">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_vzCtNPPGEeSOMOQnBKd7qg" elementId="CDEVA.view3" visible="false"/>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_vzCtNfPGEeSOMOQnBKd7qg" elementId="CDEVA.view4" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Using Algorithms" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.gif" closeable="true">
+      <tags>View</tags>
+      <tags>categoryTag:Other</tags>
+    </sharedElements>
+    <trimBars xmi:id="_vzCtNvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.main.toolbar" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtN_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtOPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtOfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtOvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtO_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtPPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtPfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtPvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtP_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtQPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtQfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtQvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtQ_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtRPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtRfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtRvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_vzCtR_PGEeSOMOQnBKd7qg" elementId="PerspectiveSpacer" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+        <tags>stretch</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_vzCtSPPGEeSOMOQnBKd7qg" elementId="Spacer Glue" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+        <tags>glue</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_vzCtSfPGEeSOMOQnBKd7qg" elementId="SearchField" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.quickaccess.SearchField"/>
+      <children xsi:type="menu:ToolControl" xmi:id="_vzCtSvPGEeSOMOQnBKd7qg" elementId="Search-PS Glue" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+        <tags>glue</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_vzCtS_PGEeSOMOQnBKd7qg" elementId="PerspectiveSwitcher" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher">
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtUfPGEeSOMOQnBKd7qg" elementId="group.editor" toBeRendered="false">
+        <tags>toolbarSeparator</tags>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_vzCtUvPGEeSOMOQnBKd7qg" elementId="group.editor" toBeRendered="false"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtU_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtVPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtVfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtVvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtV_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtWPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtWfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtWvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtW_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtXPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtXfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtXvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtX_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtYPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtYfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtYvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtY_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtZPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtZfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtZvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtZ_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtaPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtafPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtavPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCta_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtbPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtbfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtbvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtb_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtcPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtcfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtcvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtc_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtdPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtdfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtdvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtd_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtePPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtefPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtevPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCte_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtfPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtffPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtfvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtf_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtgPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtgfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtgvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtg_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCthPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCthfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCthvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCth_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtiPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtifPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtivPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCti_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtjPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtjfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtjvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtj_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtkPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtkfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtkvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtk_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtlPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtlfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtlvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtl_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtmPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtmfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtmvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtm_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtnPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtnfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtnvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtn_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtoPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtofPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtovPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCto_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtpPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtpfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtpvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtp_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtqPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtqfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtqvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtq_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtrPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtrfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzCtrvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzCtr_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUQPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUQfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUQvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUQ_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDURPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDURfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDURvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUR_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUSPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUSfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUSvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUS_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUTPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUTfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUTvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUT_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUUPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUUfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUUvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUU_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUVPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUVfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUVvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUV_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUWPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUWfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUWvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUW_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUXPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUXfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUXvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUX_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUYPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUYfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUYvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUY_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUZPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUZfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUZvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUZ_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUaPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUafPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUavPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUa_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUbPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUbfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUbvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUb_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUcPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUcfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUcvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUc_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUdPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUdfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUdvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUd_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUePPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUefPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUevPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUe_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUfPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUffPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUfvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUf_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUgPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUgfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUgvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUg_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUhPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUhfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUhvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUh_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUiPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUifPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUivPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUi_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUjPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUjfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUjvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUj_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUkPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUkfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUkvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUk_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUlPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUlfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUlvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUl_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUmPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUmfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUmvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUm_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUnPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUnfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUnvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUn_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUoPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUofPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUovPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUo_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUpPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUpfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUpvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUp_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUqPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUqfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUqvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUq_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUrPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUrfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUrvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUr_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzDUsPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzDUsfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7UPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7UfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7UvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7U_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7VPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7VfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7VvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7V_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7WPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7WfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7WvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7W_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7XPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7XfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7XvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7X_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7YPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7YfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7YvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7Y_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7ZPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7ZfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7ZvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7Z_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7aPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7afPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7avPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7a_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7bPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7bfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7bvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7b_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7cPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7cfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7cvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7c_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7dPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7dfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7dvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7d_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7ePPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7efPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7evPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7e_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7fPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7ffPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7fvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7f_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7gPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7gfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7gvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7g_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7hPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7hfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7hvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7h_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7iPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7ifPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7ivPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7i_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7jPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7jfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7jvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7j_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7kPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7kfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7kvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7k_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7lPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7lfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7lvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7l_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7mPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7mfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7mvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7m_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7nPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7nfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7nvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7n_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7oPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7ofPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7ovPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7o_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7pPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7pfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7pvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7p_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7qPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7qfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7qvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7q_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7rPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7rfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7rvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7r_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7sPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzD7sfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzD7svPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiYPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEiYfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiYvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiY_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEiZPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiZfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiZvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEiZ_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiaPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiafPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEiavPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEia_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEibPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEibfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEibvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEib_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEicPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEicfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEicvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEic_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEidPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEidfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEidvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEid_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiePPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiefPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEievPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEie_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEifPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiffPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEifvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEif_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEigPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEigfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEigvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEig_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEihPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEihfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEihvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEih_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiiPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiifPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEiivPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEii_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEijPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEijfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEijvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEij_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEikPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEikfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEikvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEik_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEilPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEilfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEilvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEil_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEimPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEimfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEimvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEim_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEinPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEinfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEinvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEin_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEioPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEiofPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiovPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEio_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEipPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEipfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEipvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEip_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiqPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiqfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEiqvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiq_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEirPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEirfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEirvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEir_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEisPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEisfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEisvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEis_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEitPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEitfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEitvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEit_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiuPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiufPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEiuvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiu_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEivPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEivfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEivvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiv_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiwPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzEiwfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiwvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzEiw_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJcPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJcfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJcvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJc_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJdPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJdfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJdvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJd_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJePPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJefPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJevPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJe_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJfPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJffPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJfvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJf_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJgPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJgfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJgvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJg_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJhPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJhfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJhvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJh_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJiPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJifPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJivPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJi_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJjPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJjfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJjvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJj_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJkPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJkfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJkvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJk_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJlPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJlfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJlvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJl_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJmPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJmfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJmvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJm_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJnPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJnfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJnvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJn_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJoPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJofPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJovPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJo_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJpPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJpfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJpvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJp_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJqPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJqfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJqvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJq_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJrPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJrfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJrvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJr_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJsPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJsfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJsvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJs_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJtPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJtfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJtvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJt_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJuPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJufPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJuvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJu_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJvPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJvfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJvvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJv_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJwPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJwfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJwvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJw_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJxPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJxfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJxvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJx_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJyPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFJyfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFJyvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwgPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwgfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwgvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwg_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwhPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwhfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwhvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwh_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwiPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwifPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwivPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwi_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwjPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwjfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwjvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwj_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwkPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwkfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwkvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwk_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwlPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwlfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwlvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwl_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwmPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwmfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwmvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwm_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwnPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwnfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwnvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwn_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwoPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwofPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwovPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwo_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwpPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwpfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwpvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwp_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwqPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwqfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwqvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwq_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwrPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwrfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwrvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwr_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwsPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwsfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwsvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFws_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwtPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwtfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwtvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwt_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwuPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwufPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwuvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwu_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwvPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwvfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwvvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwv_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwwPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwwfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwwvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFww_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwxPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwxfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwxvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwx_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwyPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwyfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwyvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwy_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwzPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwzfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFwzvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFwz_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFw0PPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzFw0fPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzFw0vPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXkPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXkfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXkvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXk_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXlPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXlfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXlvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXl_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXmPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXmfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXmvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXm_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXnPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXnfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXnvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXn_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXoPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXofPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXovPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXo_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXpPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXpfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXpvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXp_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXqPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXqfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXqvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXq_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXrPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXrfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXrvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXr_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXsPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXsfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXsvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXs_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXtPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXtfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXtvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXt_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXuPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXufPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXuvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXu_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXvPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXvfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXvvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXv_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXwPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXwfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXwvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXw_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXxPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXxfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXxvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXx_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXyPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXyfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXyvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXy_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXzPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXzfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGXzvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGXz_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGX0PPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGX0fPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGX0vPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGX0_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGX1PPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGX1fPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGX1vPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGX1_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGX2PPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGX2fPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGX2vPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzGX2_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzGX3PPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-oPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-ofPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-ovPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-o_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-pPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-pfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-pvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-p_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-qPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-qfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-qvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-q_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-rPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-rfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-rvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-r_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-sPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-sfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-svPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-s_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-tPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-tfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-tvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-t_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-uPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-ufPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-uvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-u_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-vPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-vfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-vvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-v_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-wPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-wfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-wvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-w_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-xPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-xfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-xvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-x_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-yPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-yfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-yvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-y_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-zPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-zfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-zvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-z_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-0PPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-0fPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-0vPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-0_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-1PPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-1fPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-1vPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-1_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-2PPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-2fPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzG-2vPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzG-2_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHlsPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHlsfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHlsvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHls_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHltPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHltfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHltvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHlt_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHluPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHlufPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHluvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHlu_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHlvPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHlvfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHlvvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHlv_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHlwPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHlwfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHlwvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHlw_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHlxPPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHlxfPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHlxvPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHlx_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHlyPPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHlyfPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHlyvPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHly_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHlzPPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHlzfPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHlzvPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHlz_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHl0PPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHl0fPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHl0vPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHl0_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHl1PPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHl1fPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHl1vPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHl1_PGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHl2PPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHl2fPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHl2vPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHl2_PGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHl3PPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHl3fPGEeSOMOQnBKd7qg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHl3vPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHl3_PGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHl4PPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_vzHl4fPGEeSOMOQnBKd7qg">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_vzHl4vPGEeSOMOQnBKd7qg"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="__l6JAPPGEeS8pM1Rj-7MQA">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="__l7-MPPGEeS8pM1Rj-7MQA"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="__l8lQPPGEeS8pM1Rj-7MQA"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="__l6wEPPGEeS8pM1Rj-7MQA">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="__l8lQfPGEeS8pM1Rj-7MQA"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="__l8lQvPGEeS8pM1Rj-7MQA"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="__l6wEfPGEeS8pM1Rj-7MQA">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="__l8lQ_PGEeS8pM1Rj-7MQA"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="__l8lRPPGEeS8pM1Rj-7MQA"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="__l6wEvPGEeS8pM1Rj-7MQA">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="__l8lRfPGEeS8pM1Rj-7MQA"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="__l8lRvPGEeS8pM1Rj-7MQA"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="__l6wE_PGEeS8pM1Rj-7MQA">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="__l8lR_PGEeS8pM1Rj-7MQA"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="__l6wFPPGEeS8pM1Rj-7MQA">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="__l8lSPPGEeS8pM1Rj-7MQA"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_bRh7gPPHEeSeYdDZFwClHQ">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_bRkXwPPHEeSeYdDZFwClHQ"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_bRk-0PPHEeSeYdDZFwClHQ"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_bRiikPPHEeSeYdDZFwClHQ">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_bRk-0fPHEeSeYdDZFwClHQ"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_bRk-0vPHEeSeYdDZFwClHQ"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_bRiikfPHEeSeYdDZFwClHQ">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_bRk-0_PHEeSeYdDZFwClHQ"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_bRk-1PPHEeSeYdDZFwClHQ"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_bRiikvPHEeSeYdDZFwClHQ">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_bRll4PPHEeSeYdDZFwClHQ"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_bRll4fPHEeSeYdDZFwClHQ"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_bRjJoPPHEeSeYdDZFwClHQ">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_bRll4vPHEeSeYdDZFwClHQ"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_bRjJofPHEeSeYdDZFwClHQ">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_bRll4_PHEeSeYdDZFwClHQ"/>
+      </children>
+    </trimBars>
+    <trimBars xmi:id="_vzHl4_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.trim.status" side="Bottom">
+      <children xsi:type="menu:ToolControl" xmi:id="_vzHl5PPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.StatusLine" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
+        <tags>stretch</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_vzHl5fPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.HeapStatus" toBeRendered="false" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim"/>
+      <children xsi:type="menu:ToolControl" xmi:id="_vzHl5vPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.ProgressBar" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
+        <tags>Draggable</tags>
+      </children>
+    </trimBars>
+    <trimBars xmi:id="_vzHl5_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.trim.vertical1" toBeRendered="false" side="Left">
+      <children xsi:type="menu:ToolControl" xmi:id="_vzHl6PPGEeSOMOQnBKd7qg" elementId="left(CDEVA.perspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_vzHl6fPGEeSOMOQnBKd7qg" elementId="CDEVA.view1MStack(CDEVA.perspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+      </children>
+    </trimBars>
+    <trimBars xmi:id="_vzHl6vPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.trim.vertical2" toBeRendered="false" side="Right">
+      <children xsi:type="menu:ToolControl" xmi:id="_vzHl6_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.editorss(CDEVA.perspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+      </children>
+    </trimBars>
+  </children>
+  <bindingTables xmi:id="_vzHl7PPGEeSOMOQnBKd7qg" contributorURI="platform:/plugin/org.eclipse.ui.workbench" bindingContext="_vzJa8fPGEeSOMOQnBKd7qg">
+    <bindings xmi:id="_vzHl7fPGEeSOMOQnBKd7qg" keySequence="CTRL+Y" command="_vzNFQ_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIMwPPGEeSOMOQnBKd7qg" keySequence="CTRL+1" command="_vzNFW_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIMwfPGEeSOMOQnBKd7qg" keySequence="ALT+/" command="_vzLQJvPGEeSOMOQnBKd7qg">
+      <tags>locale:zh</tags>
+    </bindings>
+    <bindings xmi:id="_vzIMwvPGEeSOMOQnBKd7qg" keySequence="CTRL+INSERT" command="_vzLQFfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIMw_PGEeSOMOQnBKd7qg" keySequence="CTRL+V" command="_vzLQRvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIMxPPGEeSOMOQnBKd7qg" keySequence="CTRL+F10" command="_vzL3N_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIMxfPGEeSOMOQnBKd7qg" keySequence="CTRL+Z" command="_vzLQPPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIMxvPGEeSOMOQnBKd7qg" keySequence="CTRL+X" command="_vzLQRPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIMx_PGEeSOMOQnBKd7qg" keySequence="ALT+SHIFT+F3" command="_vzL3LvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIMyPPGEeSOMOQnBKd7qg" keySequence="ALT+PAGE_UP" command="_vzNFT_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIMyfPGEeSOMOQnBKd7qg" keySequence="CTRL+C" command="_vzLQFfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIMyvPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+L" command="_vzL3SvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIMy_PGEeSOMOQnBKd7qg" keySequence="ALT+PAGE_DOWN" command="_vzMeT_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIMzPPGEeSOMOQnBKd7qg" keySequence="SHIFT+INSERT" command="_vzLQRvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIMzfPGEeSOMOQnBKd7qg" keySequence="SHIFT+DEL" command="_vzLQRPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIMzvPGEeSOMOQnBKd7qg" keySequence="CTRL+A" command="_vzMeRfPGEeSOMOQnBKd7qg"/>
+  </bindingTables>
+  <bindingTables xmi:id="_vzIMz_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.contexts.window" bindingContext="_vzJa8vPGEeSOMOQnBKd7qg">
+    <bindings xmi:id="_vzIM0PPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+F8" command="_vzLQHfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM0fPGEeSOMOQnBKd7qg" keySequence="CTRL+," command="_vzLQSPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM0vPGEeSOMOQnBKd7qg" keySequence="CTRL+W" command="_vzNFS_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM0_PGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+R" command="_vzNFYPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM1PPGEeSOMOQnBKd7qg" keySequence="ALT+F7" command="_vzLQR_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM1fPGEeSOMOQnBKd7qg" keySequence="CTRL+." command="_vzMeYPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM1vPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+S" command="_vzL3R_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM1_PGEeSOMOQnBKd7qg" keySequence="DEL" command="_vzMeNPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM2PPGEeSOMOQnBKd7qg" keySequence="ALT+SHIFT+F7" command="_vzMeXfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM2fPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+F4" command="_vzLQQ_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM2vPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+W" command="_vzLQQ_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM2_PGEeSOMOQnBKd7qg" keySequence="CTRL+F8" command="_vzNFXfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM3PPGEeSOMOQnBKd7qg" keySequence="ALT+SHIFT+W" command="_vzMeX_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM3fPGEeSOMOQnBKd7qg" keySequence="F5" command="_vzL3PvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM3vPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+NUMPAD_MULTIPLY" command="_vzL3RvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM3_PGEeSOMOQnBKd7qg" keySequence="CTRL+S" command="_vzL3TPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM4PPGEeSOMOQnBKd7qg" keySequence="CTRL+M" command="_vzLQIfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM4fPGEeSOMOQnBKd7qg" keySequence="CTRL+F4" command="_vzNFS_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM4vPGEeSOMOQnBKd7qg" keySequence="ALT+-" command="_vzLQKvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM4_PGEeSOMOQnBKd7qg" keySequence="CTRL+F7" command="_vzLQFvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM5PPGEeSOMOQnBKd7qg" keySequence="CTRL+N" command="_vzNFR_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM5fPGEeSOMOQnBKd7qg" keySequence="ALT+CR" command="_vzLQEfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM5vPGEeSOMOQnBKd7qg" keySequence="F12" command="_vzLQKPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM5_PGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+F7" command="_vzMePvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM6PPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+F6" command="_vzL3TfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM6fPGEeSOMOQnBKd7qg" keySequence="CTRL+Q" command="_vzL3NPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM6vPGEeSOMOQnBKd7qg" keySequence="ALT+SHIFT+N" command="_vzLQQPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM6_PGEeSOMOQnBKd7qg" keySequence="CTRL+P" command="_vzL3KfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM7PPGEeSOMOQnBKd7qg" keySequence="CTRL+3" command="_vzKpKvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM7fPGEeSOMOQnBKd7qg" keySequence="F2" command="_vzL3IfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIM7vPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+NUMPAD_DIVIDE" command="_vzLQH_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz0PPGEeSOMOQnBKd7qg" keySequence="ALT+F5" command="_vzMeO_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz0fPGEeSOMOQnBKd7qg" keySequence="ALT+ARROW_RIGHT" command="_vzL3LfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz0vPGEeSOMOQnBKd7qg" keySequence="CTRL+B" command="_vzL3I_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz0_PGEeSOMOQnBKd7qg" keySequence="CTRL+F6" command="_vzL3UvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz1PPGEeSOMOQnBKd7qg" keySequence="CTRL+F" command="_vzL3TvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz1fPGEeSOMOQnBKd7qg" keySequence="CTRL+E" command="_vzLQNfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz1vPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+E" command="_vzMeTfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz1_PGEeSOMOQnBKd7qg" keySequence="ALT+SHIFT+?" command="_vzLQGfPGEeSOMOQnBKd7qg">
+      <tags>locale:zh</tags>
+    </bindings>
+    <bindings xmi:id="_vzIz2PPGEeSOMOQnBKd7qg" keySequence="ALT+?" command="_vzLQGfPGEeSOMOQnBKd7qg">
+      <tags>locale:zh</tags>
+    </bindings>
+    <bindings xmi:id="_vzIz2fPGEeSOMOQnBKd7qg" keySequence="ALT+ARROW_LEFT" command="_vzL3OvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz2vPGEeSOMOQnBKd7qg" keySequence="ALT+SHIFT+Q C" command="_vzMeQfPGEeSOMOQnBKd7qg">
+      <parameters xmi:id="_vzIz2_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.console.ConsoleView"/>
+    </bindings>
+    <bindings xmi:id="_vzIz3PPGEeSOMOQnBKd7qg" keySequence="ALT+SHIFT+Q Q" command="_vzMeQfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz3fPGEeSOMOQnBKd7qg" keySequence="ALT+SHIFT+Q X" command="_vzMeQfPGEeSOMOQnBKd7qg">
+      <parameters xmi:id="_vzIz3vPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.views.ProblemView"/>
+    </bindings>
+    <bindings xmi:id="_vzIz3_PGEeSOMOQnBKd7qg" keySequence="ALT+SHIFT+Q O" command="_vzMeQfPGEeSOMOQnBKd7qg">
+      <parameters xmi:id="_vzIz4PPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.views.ContentOutline"/>
+    </bindings>
+  </bindingTables>
+  <bindingTables xmi:id="_vzIz4fPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.textEditorScope" bindingContext="_vzJa9fPGEeSOMOQnBKd7qg">
+    <bindings xmi:id="_vzIz4vPGEeSOMOQnBKd7qg" keySequence="CTRL+K" command="_vzMeSPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz4_PGEeSOMOQnBKd7qg" keySequence="CTRL+ARROW_RIGHT" command="_vzNFRPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz5PPGEeSOMOQnBKd7qg" keySequence="CTRL+J" command="_vzL3PPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz5fPGEeSOMOQnBKd7qg" keySequence="CTRL+L" command="_vzLQNvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz5vPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+CR" command="_vzL3LPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz5_PGEeSOMOQnBKd7qg" keySequence="HOME" command="_vzMeMPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz6PPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+Y" command="_vzL3SfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz6fPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+J" command="_vzMeZPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz6vPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+INSERT" command="_vzMeUvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz6_PGEeSOMOQnBKd7qg" keySequence="SHIFT+CR" command="_vzL3VPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz7PPGEeSOMOQnBKd7qg" keySequence="ALT+CTRL+/" command="_vzMeMvPGEeSOMOQnBKd7qg">
+      <tags>locale:zh</tags>
+    </bindings>
+    <bindings xmi:id="_vzIz7fPGEeSOMOQnBKd7qg" keySequence="INSERT" command="_vzL3MfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz7vPGEeSOMOQnBKd7qg" keySequence="CTRL+F10" command="_vzL3KvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz7_PGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+X" command="_vzLQHvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz8PPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+K" command="_vzMeNvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz8fPGEeSOMOQnBKd7qg" keySequence="END" command="_vzL3PfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz8vPGEeSOMOQnBKd7qg" keySequence="F2" command="_vzKpKfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz8_PGEeSOMOQnBKd7qg" keySequence="CTRL+D" command="_vzL3RfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz9PPGEeSOMOQnBKd7qg" keySequence="CTRL+ARROW_LEFT" command="_vzLQEPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz9fPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+ARROW_LEFT" command="_vzMeMfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz9vPGEeSOMOQnBKd7qg" keySequence="CTRL+ARROW_DOWN" command="_vzNFXvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz9_PGEeSOMOQnBKd7qg" keySequence="ALT+CTRL+J" command="_vzNFVvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz-PPGEeSOMOQnBKd7qg" keySequence="CTRL+END" command="_vzMeXPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz-fPGEeSOMOQnBKd7qg" keySequence="CTRL+BS" command="_vzKpMPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz-vPGEeSOMOQnBKd7qg" keySequence="SHIFT+END" command="_vzL3UfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz-_PGEeSOMOQnBKd7qg" keySequence="CTRL+HOME" command="_vzLQRfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz_PPGEeSOMOQnBKd7qg" keySequence="SHIFT+HOME" command="_vzL3Q_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzIz_fPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+ARROW_RIGHT" command="_vzMeWvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzJa4PPGEeSOMOQnBKd7qg" keySequence="ALT+ARROW_UP" command="_vzNFTvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzJa4fPGEeSOMOQnBKd7qg" keySequence="CTRL+DEL" command="_vzLQN_PGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzJa4vPGEeSOMOQnBKd7qg" keySequence="CTRL+ARROW_UP" command="_vzMePPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzJa4_PGEeSOMOQnBKd7qg" keySequence="ALT+CTRL+ARROW_UP" command="_vzMeXvPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzJa5PPGEeSOMOQnBKd7qg" keySequence="ALT+ARROW_DOWN" command="_vzMeVfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzJa5fPGEeSOMOQnBKd7qg" keySequence="ALT+CTRL+ARROW_DOWN" command="_vzMeUPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzJa5vPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+DEL" command="_vzLQLPPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzJa5_PGEeSOMOQnBKd7qg" keySequence="ALT+SHIFT+A" command="_vzLQOPPGEeSOMOQnBKd7qg"/>
+  </bindingTables>
+  <bindingTables xmi:id="_vzJa6PPGEeSOMOQnBKd7qg" elementId="org.eclipse.core.runtime.xml" bindingContext="_vzJa-fPGEeSOMOQnBKd7qg">
+    <bindings xmi:id="_vzJa6fPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+P" command="_vzLQKfPGEeSOMOQnBKd7qg"/>
+    <bindings xmi:id="_vzJa6vPGEeSOMOQnBKd7qg" keySequence="CTRL+SHIFT+D" command="_vzMeZfPGEeSOMOQnBKd7qg"/>
+  </bindingTables>
+  <bindingTables xmi:id="_vzJa6_PGEeSOMOQnBKd7qg" bindingContext="_vzJa-vPGEeSOMOQnBKd7qg"/>
+  <bindingTables xmi:id="_vzJa7PPGEeSOMOQnBKd7qg" bindingContext="_vzJa-_PGEeSOMOQnBKd7qg"/>
+  <bindingTables xmi:id="_vzJa7fPGEeSOMOQnBKd7qg" bindingContext="_vzJa_PPGEeSOMOQnBKd7qg"/>
+  <bindingTables xmi:id="_vzJa7vPGEeSOMOQnBKd7qg" bindingContext="_vzJa_fPGEeSOMOQnBKd7qg"/>
+  <bindingTables xmi:id="_vzJa7_PGEeSOMOQnBKd7qg" bindingContext="_vzJa_vPGEeSOMOQnBKd7qg"/>
+  <bindingTables xmi:id="_vzJa8PPGEeSOMOQnBKd7qg" bindingContext="_vzJa__PGEeSOMOQnBKd7qg"/>
+  <rootContext xmi:id="_vzJa8fPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" name="In Dialogs and Windows" description="Either a dialog or a window is open">
+    <children xmi:id="_vzJa8vPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.ui.workbench" name="In Windows" description="A window is open">
+      <children xmi:id="_vzJa8_PGEeSOMOQnBKd7qg" elementId="org.eclipse.e4.ui.contexts.views" contributorURI="platform:/plugin/org.eclipse.ui.workbench" name="%bindingcontext.name.bindingView"/>
+      <children xmi:id="_vzJa9PPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.console.ConsoleView" name="In Console View" description="In Console View"/>
+      <children xmi:id="_vzJa9fPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.textEditorScope" name="Editing Text" description="Editing Text Context"/>
+    </children>
+    <children xmi:id="_vzJa9vPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.contexts.dialog" contributorURI="platform:/plugin/org.eclipse.ui.workbench" name="In Dialogs" description="A dialog is open"/>
+  </rootContext>
+  <rootContext xmi:id="_vzJa9_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.contexts.workbenchMenu" name="Workbench Menu" description="When no Workbench windows are active"/>
+  <rootContext xmi:id="_vzJa-PPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.contexts.actionSet" name="Action Set" description="Parent context for action sets"/>
+  <rootContext xmi:id="_vzJa-fPGEeSOMOQnBKd7qg" elementId="org.eclipse.core.runtime.xml" name="Auto::org.eclipse.core.runtime.xml"/>
+  <rootContext xmi:id="_vzJa-vPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.actionSet.presentation" name="Auto::org.eclipse.ui.edit.text.actionSet.presentation"/>
+  <rootContext xmi:id="_vzJa-_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.NavigateActionSet" name="Auto::org.eclipse.ui.NavigateActionSet"/>
+  <rootContext xmi:id="_vzJa_PPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.actionSet.keyBindings" name="Auto::org.eclipse.ui.actionSet.keyBindings"/>
+  <rootContext xmi:id="_vzJa_fPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.WorkingSetModificationActionSet" name="Auto::org.eclipse.ui.WorkingSetModificationActionSet"/>
+  <rootContext xmi:id="_vzJa_vPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.WorkingSetActionSet" name="Auto::org.eclipse.ui.WorkingSetActionSet"/>
+  <rootContext xmi:id="_vzJa__PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.actionSet.openFiles" name="Auto::org.eclipse.ui.actionSet.openFiles"/>
+  <descriptors xmi:id="_vzJbAPPGEeSOMOQnBKd7qg" elementId="org.eclipse.e4.ui.compatibility.editor" allowMultiple="true" category="org.eclipse.e4.primaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor">
+    <tags>Editor</tags>
+  </descriptors>
+  <descriptors xmi:id="_vzJbAfPGEeSOMOQnBKd7qg" elementId="org.eclipse.m2e.core.views.MavenRepositoryView" label="Maven Repositories" iconURI="platform:/plugin/org.eclipse.m2e.core.ui/icons/maven_indexes.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Maven</tags>
+  </descriptors>
+  <descriptors xmi:id="_vzJbAvPGEeSOMOQnBKd7qg" elementId="org.eclipse.m2e.core.views.MavenBuild" label="Maven Workspace Build" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Maven</tags>
+  </descriptors>
+  <descriptors xmi:id="_vzJbA_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.internal.introview" label="Welcome" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_vzJbBPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.console.ConsoleView" label="Console" iconURI="platform:/plugin/org.eclipse.ui.console/icons/full/cview16/console_view.gif" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_vzJbBfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.views.PropertySheet" label="Properties" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/prop_ps.gif" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_vzJbBvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.views.ContentOutline" label="Outline" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/outline_co.gif" category="org.eclipse.e4.secondaryNavigationStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_vzJbB_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.views.ProgressView" label="Progress" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/pview.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_vzJbCPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.views.ResourceNavigator" label="Navigator" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/filenav_nav.gif" category="org.eclipse.e4.primaryNavigationStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_vzJbCfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.views.BookmarkView" label="Bookmarks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/bkmrk_nav.gif" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_vzJbCvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.views.TaskList" label="Tasks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/tasks_tsk.gif" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_vzJbC_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.views.ProblemView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.gif" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_vzJbDPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.views.AllMarkersView" label="Markers" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.gif" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_vzJbDfPGEeSOMOQnBKd7qg" elementId="CDEVA.view1" label="Cluster Results" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Other</tags>
+  </descriptors>
+  <descriptors xmi:id="_vzJbDvPGEeSOMOQnBKd7qg" elementId="CDEVA.view2" label="Property" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Other</tags>
+  </descriptors>
+  <descriptors xmi:id="_vzJbD_PGEeSOMOQnBKd7qg" elementId="CDEVA.view3" label="CurrentNetwork" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Other</tags>
+  </descriptors>
+  <descriptors xmi:id="_vzJbEPPGEeSOMOQnBKd7qg" elementId="CDEVA.view4" label="Using Algorithms" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Other</tags>
+  </descriptors>
+  <commands xmi:id="_vzKpJ_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.pinEditor" commandName="Pin Editor" description="Pin the current editor" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzKpKPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.nextTab" commandName="Next Tab" description="Switch to the next tab" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzKpKfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.showInformation" commandName="Show Tooltip Description" description="Displays information for the current caret location in a focused hover" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzKpK_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.select.pageUp" commandName="Select Page Up" description="Select to the top of the page" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzKpLPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.goto.pageUp" commandName="Page Up" description="Go up one page" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzKpLfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.goto.columnPrevious" commandName="Previous Column" description="Go to the previous column" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzKpLvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.ide.copyBuildIdCommand" commandName="Copy Build Id To Clipboard" description="Copies the build id to the clipboard." category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzKpL_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.select.textEnd" commandName="Select Text End" description="Select to the end of the text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzKpMPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.deletePreviousWord" commandName="Delete Previous Word" description="Delete the previous word" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQEPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.goto.wordPrevious" commandName="Previous Word" description="Go to the previous word" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQEfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.properties" commandName="Properties" description="Display the properties of the selected item" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQEvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.preferences" commandName="Preferences" description="Open the preferences dialog" category="_vzNsVfPGEeSOMOQnBKd7qg">
+    <parameters xmi:id="_vzLQE_PGEeSOMOQnBKd7qg" elementId="preferencePageId" name="Preference Page"/>
+  </commands>
+  <commands xmi:id="_vzLQFPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.activeContextInfo" commandName="Show activeContext Info" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQFfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.copy" commandName="Copy" description="Copy the selection to the clipboard" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQFvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.nextView" commandName="Next View" description="Switch to the next view" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQF_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.select.textStart" commandName="Select Text Start" description="Select to the beginning of the text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQGPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.revertToSaved" commandName="Revert to Saved" description="Revert to the last saved state" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQGfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.contentAssist.contextInformation" commandName="Context Information" description="Show Context Information" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQGvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.views.properties.NewPropertySheetCommand" commandName="Properties" category="_vzNsVvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQG_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.saveAs" commandName="Save As" description="Save the current contents to another location" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQHPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.addToWorkingSet" commandName="Add to Working Set" description="Adds the selected object to a working set." category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQHfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.previousPerspective" commandName="Previous Perspective" description="Switch to the previous perspective" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQHvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.upperCase" commandName="To Upper Case" description="Changes the selection to upper case" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQH_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.collapseAll" commandName="Collapse All" description="Collapse the current tree" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQIPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.goInto" commandName="Go Into" description="Navigate into the selected item" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQIfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.maximizePart" commandName="Maximize Active View or Editor" description="Toggles maximize/restore state of active view or editor" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQIvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.lockToolBar" commandName="Lock the Toolbars" description="Lock the Toolbars" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQI_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.select.windowEnd" commandName="Select Window End" description="Select to the end of the window" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQJPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.newEditor" commandName="New Editor" description="Open another editor on the active editor's input" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQJfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.minimizePart" commandName="Minimize Active View or Editor" description="Minimizes the active view or editor" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQJvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.contentAssist.proposals" commandName="Content Assist" description="Content Assist" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQJ_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.up" commandName="Up" description="Navigate up one level" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQKPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.activateEditor" commandName="Activate Editor" description="Activate the editor" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQKfPGEeSOMOQnBKd7qg" elementId="org.eclipse.m2e.core.ui.command.addPlugin" commandName="Add Maven Plugin" description="Add Maven Plugin" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQKvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.showSystemMenu" commandName="Show System Menu" description="Show the system menu" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQK_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.removeFromWorkingSet" commandName="Remove From Working Set" description="Removes the selected object from a working set." category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQLPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.delete.line.to.end" commandName="Delete to End of Line" description="Delete to the end of a line of text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQLfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.savePerspective" commandName="Save Perspective As" description="Save the current perspective" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQLvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.ide.deleteCompleted" commandName="Delete Completed Tasks" description="Delete the tasks marked as completed" category="_vzNsVvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQL_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.move" commandName="Move..." description="Move the selected item" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQMPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.goto.windowEnd" commandName="Window End" description="Go to the end of the window" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQMfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.perspectives.showPerspective" commandName="Show Perspective" description="Show a particular perspective" category="_vzNFbfPGEeSOMOQnBKd7qg">
+    <parameters xmi:id="_vzLQMvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.perspectives.showPerspective.perspectiveId" name="Parameter"/>
+    <parameters xmi:id="_vzLQM_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.perspectives.showPerspective.newWindow" name="In New Window"/>
+  </commands>
+  <commands xmi:id="_vzLQNPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.linkWithEditor" commandName="Toggle Link with Editor " description="Toggles linking of a view's selection with the active editor's selection" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQNfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.openEditorDropDown" commandName="Quick Switch Editor" description="Open the editor drop down list" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQNvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.goto.line" commandName="Go to Line" description="Go to a specified line of text" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQN_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.deleteNextWord" commandName="Delete Next Word" description="Delete the next word" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQOPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.toggleBlockSelectionMode" commandName="Toggle Block Selection" description="Toggle block / column selection in the current text editor" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQOfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.goToResource" commandName="Go to" description="Go to a particular resource in the active view" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQOvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.select.lineUp" commandName="Select Line Up" description="Extend the selection to the previous line of text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQO_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.resetPerspective" commandName="Reset Perspective" description="Reset the current perspective to its default state" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQPPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.undo" commandName="Undo" description="Undo the last operation" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQPfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.project.buildLast" commandName="Repeat Working Set Build" description="Repeat the last working set build" category="_vzNFbvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQPvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.cut.line.to.end" commandName="Cut to End of Line" description="Cut to the end of a line of text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQP_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.project.buildProject" commandName="Build Project" description="Build the selected project" category="_vzNFbvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQQPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.newQuickMenu" commandName="New menu" description="Open the New menu" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQQfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.project.openProject" commandName="Open Project" description="Open a project" category="_vzNFbvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQQvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.openWorkspace" commandName="Switch Workspace" description="Open the workspace selection dialog" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQQ_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.closeAll" commandName="Close All" description="Close all editors" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQRPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.cut" commandName="Cut" description="Cut the selection to the clipboard" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQRfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.goto.textStart" commandName="Text Start" description="Go to the beginning of the text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQRvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.paste" commandName="Paste" description="Paste from the clipboard" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQR_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.part.nextPage" commandName="Next Page" description="Switch to the next page" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzLQSPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.previous" commandName="Previous" description="Navigate to the previous item" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3IPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.project.properties" commandName="Properties" description="Display the properties of the selected item's project " category="_vzNFbvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3IfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.rename" commandName="Rename" description="Rename the selected item" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3IvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.clear.mark" commandName="Clear Mark" description="Clear the mark" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3I_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.project.buildAll" commandName="Build All" description="Build all projects" category="_vzNFbvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3JPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.select.columnPrevious" commandName="Select Previous Column" description="Select the previous column" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3JfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly" commandName="Show Selected Element Only" description="Show Selected Element Only" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3JvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.cut.line.to.beginning" commandName="Cut to Beginning of Line" description="Cut to the beginning of a line of text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3J_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.export" commandName="Export" description="Export" category="_vzNsUvPGEeSOMOQnBKd7qg">
+    <parameters xmi:id="_vzL3KPPGEeSOMOQnBKd7qg" elementId="exportWizardId" name="Export Wizard"/>
+  </commands>
+  <commands xmi:id="_vzL3KfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.print" commandName="Print" description="Print" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3KvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.showRulerContextMenu" commandName="Show Ruler Context Menu" description="Show the context menu for the ruler" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3K_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.ide.copyConfigCommand" commandName="Copy Configuration Data To Clipboard" description="Copies the configuration data (system properties, installed bundles, etc) to the clipboard." category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3LPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.smartEnterInverse" commandName="Insert Line Above Current Line" description="Adds a new line above the current line" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3LfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.forwardHistory" commandName="Forward History" description="Move forward in the editor navigation history" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3LvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.spy" commandName="Show Contributing Plug-in" description="Shows contribution information for the currently selected element" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3L_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.help.helpSearch" commandName="Help Search" description="Open the help search" category="_vzNsV_PGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3MPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.restartWorkbench" commandName="Restart" description="Restart the workbench" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3MfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.toggleOverwrite" commandName="Toggle Overwrite" description="Toggle overwrite mode" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3MvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.goto.lineDown" commandName="Line Down" description="Go down one line of text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3M_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.project.rebuildAll" commandName="Rebuild All" description="Rebuild all projects" category="_vzNFbvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3NPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition" commandName="Last Edit Location" description="Last edit location" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3NfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.open.hyperlink" commandName="Open Hyperlink" description="Opens the hyperlink at the caret location or opens a chooser if more than one hyperlink is available" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3NvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.openLocalFile" commandName="Open File..." description="Open a file" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3N_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.showViewMenu" commandName="Show View Menu" description="Show the view menu" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3OPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.ide.configureFilters" commandName="Configure Contents..." description="Configure the filters to apply to the markers view" category="_vzNsVvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3OfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.shiftRight" commandName="Shift Right" description="Shift a block of text to the right" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3OvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.backwardHistory" commandName="Backward History" description="Move backward in the editor navigation history" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3O_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.previousTab" commandName="Previous Tab" description="Switch to the previous tab" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3PPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.findIncremental" commandName="Incremental Find" description="Incremental find" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3PfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.goto.lineEnd" commandName="Line End" description="Go to the end of the line of text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3PvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.refresh" commandName="Refresh" description="Refresh the selected items" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3P_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.swap.mark" commandName="Swap Mark" description="Swap the mark with the cursor position" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3QPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.closeAllPerspectives" commandName="Close All Perspectives" description="Close all open perspectives" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3QfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.deletePrevious" commandName="Delete Previous" description="Delete the previous character" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3QvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.shiftLeft" commandName="Shift Left" description="Shift a block of text to the left" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3Q_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.select.lineStart" commandName="Select Line Start" description="Select to the beginning of the line of text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3RPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.select.columnNext" commandName="Select Next Column" description="Select the next column" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3RfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.delete.line" commandName="Delete Line" description="Delete a line of text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3RvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.expandAll" commandName="Expand All" description="Expand the current tree" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3R_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.saveAll" commandName="Save All" description="Save all current contents" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3SPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.select.lineDown" commandName="Select Line Down" description="Extend the selection to the next line of text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3SfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.lowerCase" commandName="To Lower Case" description="Changes the selection to lower case" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3SvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.showKeyAssist" commandName="Show Key Assist" description="Show the key assist dialog" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3S_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.closeOthers" commandName="Close Others" description="Close all editors except the one that is active" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3TPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.save" commandName="Save" description="Save the current contents" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3TfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.previousEditor" commandName="Previous Editor" description="Switch to the previous editor" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3TvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.findReplace" commandName="Find and Replace" description="Find and replace text" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3T_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.ide.OpenMarkersView" commandName="Open Another" description="Open another view" category="_vzNsVvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3UPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.help.tipsAndTricksAction" commandName="Tips and Tricks" description="Open the tips and tricks help page" category="_vzNsV_PGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3UfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.select.lineEnd" commandName="Select Line End" description="Select to the end of the line of text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3UvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.nextEditor" commandName="Next Editor" description="Switch to the next editor" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3U_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.project.closeUnrelatedProjects" commandName="Close Unrelated Projects" description="Close unrelated projects" category="_vzNFbvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzL3VPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.smartEnter" commandName="Insert Line Below Current Line" description="Adds a new line below the current line" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeMPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.goto.lineStart" commandName="Line Start" description="Go to the start of the line of text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeMfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.select.wordPrevious" commandName="Select Previous Word" description="Select the previous word" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeMvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.hippieCompletion" commandName="Word Completion" description="Context insensitive completion" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeM_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.help.helpContents" commandName="Help Contents" description="Open the help contents" category="_vzNsV_PGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeNPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.delete" commandName="Delete" description="Delete the selection" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeNfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.delete.line.to.beginning" commandName="Delete to Beginning of Line" description="Delete to the beginning of a line of text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeNvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.findPrevious" commandName="Find Previous" description="Find previous item" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeN_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.ide.configureColumns" commandName="Configure Columns..." description="Configure the columns in the markers view" category="_vzNsVvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeOPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.exit" commandName="Exit" description="Exit the application" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeOfPGEeSOMOQnBKd7qg" elementId="org.eclipse.m2e.core.ui.command.openPom" commandName="Open Maven POM" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeOvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.addBookmark" commandName="Add Bookmark" description="Add a bookmark" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeO_PGEeSOMOQnBKd7qg" elementId="org.eclipse.m2e.core.ui.command.updateProject" commandName="Update Project" description="Update Maven Project configuration and dependencies" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMePPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.scroll.lineUp" commandName="Scroll Line Up" description="Scroll up one line of text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMePfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.set.mark" commandName="Set Mark" description="Set the mark" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMePvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.previousView" commandName="Previous View" description="Switch to the previous view" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeP_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters" commandName="Show Whitespace Characters" description="Shows whitespace characters in current text editor" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeQPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.revert" commandName="Revert" description="Revert to the last saved state" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeQfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.views.showView" commandName="Show View" description="Shows a particular view" category="_vzNFbPPGEeSOMOQnBKd7qg">
+    <parameters xmi:id="_vzMeQvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.views.showView.viewId" name="View"/>
+    <parameters xmi:id="_vzMeQ_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.views.showView.secondaryId" name="Secondary Id"/>
+    <parameters xmi:id="_vzMeRPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.views.showView.makeFast" name="As FastView"/>
+  </commands>
+  <commands xmi:id="_vzMeRfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.selectAll" commandName="Select All" description="Select all" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeRvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.showResourceByPath" commandName="Show Resource in Navigator" description="Show a resource in the Navigator given its path" category="_vzNsUPPGEeSOMOQnBKd7qg">
+    <parameters xmi:id="_vzMeR_PGEeSOMOQnBKd7qg" elementId="resourcePath" name="Resource Path" typeId="org.eclipse.ui.ide.resourcePath" optional="false"/>
+  </commands>
+  <commands xmi:id="_vzMeSPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.findNext" commandName="Find Next" description="Find next item" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeSfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.project.rebuildProject" commandName="Rebuild Project" description="Rebuild the selected projects" category="_vzNFbvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeSvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.project.buildAutomatically" commandName="Build Automatically" description="Toggle the workspace build automatically function" category="_vzNFbvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeS_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.import" commandName="Import" description="Import" category="_vzNsUvPGEeSOMOQnBKd7qg">
+    <parameters xmi:id="_vzMeTPPGEeSOMOQnBKd7qg" elementId="importWizardId" name="Import Wizard"/>
+  </commands>
+  <commands xmi:id="_vzMeTfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.switchToEditor" commandName="Switch to Editor" description="Switch to an editor" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeTvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.help.dynamicHelp" commandName="Dynamic Help" description="Open the dynamic help" category="_vzNsV_PGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeT_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.nextSubTab" commandName="Next Sub-Tab" description="Switch to the next sub-tab" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeUPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.copyLineDown" commandName="Copy Lines" description="Duplicates the selected lines and moves the selection to the copy" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeUfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.addTask" commandName="Add Task..." description="Add a task" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeUvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.toggleInsertMode" commandName="Toggle Insert Mode" description="Toggle insert mode" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeU_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.closePart" commandName="Close Part" description="Close the active workbench part" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeVPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.project.cleanAction" commandName="Build Clean" description="Discard old built state" category="_vzNFbvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeVfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.moveLineDown" commandName="Move Lines Down" description="Moves the selected lines down" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeVvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.help.installationDialog" commandName="Installation Information" description="Open the installation dialog" category="_vzNsV_PGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeV_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.goto.lineUp" commandName="Line Up" description="Go up one line of text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeWPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.goto.windowStart" commandName="Window Start" description="Go to the start of the window" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeWfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.back" commandName="Back" description="Navigate back" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeWvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.select.wordNext" commandName="Select Next Word" description="Select the next word" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeW_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.goto.pageDown" commandName="Page Down" description="Go down one page" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeXPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.goto.textEnd" commandName="Text End" description="Go to the end of the text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeXfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.part.previousPage" commandName="Previous Page" description="Switch to the previous page" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeXvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.copyLineUp" commandName="Duplicate Lines" description="Duplicates the selected lines and leaves the selection unchanged" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeX_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.showInQuickMenu" commandName="Show In..." description="Open the Show In menu" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeYPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.next" commandName="Next" description="Navigate to the next item" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeYfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.closePerspective" commandName="Close Perspective" description="Close the current perspective" category="_vzNsVfPGEeSOMOQnBKd7qg">
+    <parameters xmi:id="_vzMeYvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.closePerspective.perspectiveId" name="Perspective Id"/>
+  </commands>
+  <commands xmi:id="_vzMeY_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.project.closeProject" commandName="Close Project" description="Close the selected project" category="_vzNFbvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeZPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.findIncrementalReverse" commandName="Incremental Find Reverse" description="Incremental find reverse" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzMeZfPGEeSOMOQnBKd7qg" elementId="org.eclipse.m2e.core.ui.command.addDependency" commandName="Add Maven Dependency" description="Add Maven Dependency" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFQPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.help.aboutAction" commandName="About" description="Open the about dialog" category="_vzNsV_PGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFQfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.goto.columnNext" commandName="Next Column" description="Go to the next column" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFQvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.closeAllSaved" commandName="Close All Saved" description="Close all saved editors" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFQ_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.redo" commandName="Redo" description="Redo the last operation" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFRPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.goto.wordNext" commandName="Next Word" description="Go to the next word" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFRfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.cut.line" commandName="Cut Line" description="Cut a line of text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFRvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.selectWorkingSets" commandName="Select Working Sets" description="Select the working sets that are applicable for this window." category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFR_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.newWizard" commandName="New" description="Open the New item wizard" category="_vzNsUvPGEeSOMOQnBKd7qg">
+    <parameters xmi:id="_vzNFSPPGEeSOMOQnBKd7qg" elementId="newWizardId" name="New Wizard"/>
+  </commands>
+  <commands xmi:id="_vzNFSfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.newWindow" commandName="New Window" description="Open another window" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFSvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.deleteNext" commandName="Delete Next" description="Delete the next character" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFS_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.file.close" commandName="Close" description="Close the active editor" category="_vzNsUvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFTPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.customizePerspective" commandName="Customize Perspective" description="Customize the current perspective" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFTfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.help.quickStartAction" commandName="Welcome" description="Show help for beginning users" category="_vzNsV_PGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFTvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.moveLineUp" commandName="Move Lines Up" description="Moves the selected lines up" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFT_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.previousSubTab" commandName="Previous Sub-Tab" description="Switch to the previous sub-tab" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFUPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.hideShowEditors" commandName="Toggle Editor Area Visibility" description="Toggles the visibility of the editor area" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFUfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.showIn" commandName="Show In" category="_vzNsUPPGEeSOMOQnBKd7qg">
+    <parameters xmi:id="_vzNFUvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.showIn.targetId" name="Show In Target Id" optional="false"/>
+  </commands>
+  <commands xmi:id="_vzNFU_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.select.pageDown" commandName="Select Page Down" description="Select to the bottom of the page" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFVPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.help.displayHelp" commandName="Display Help" description="Display a Help topic" category="_vzNsV_PGEeSOMOQnBKd7qg">
+    <parameters xmi:id="_vzNFVfPGEeSOMOQnBKd7qg" elementId="href" name="Help topic href"/>
+  </commands>
+  <commands xmi:id="_vzNFVvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.join.lines" commandName="Join Lines" description="Join lines of text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFV_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.showContextMenu" commandName="Show Context Menu" description="Show the context menu" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFWPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.ide.markCompleted" commandName="Mark Completed" description="Mark the selected tasks as completed" category="_vzNsVvPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFWfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.recenter" commandName="Recenter" description="Recenter the window based on the cursor" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFWvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.forward" commandName="Forward" description="Navigate forward" category="_vzNsUPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFW_PGEeSOMOQnBKd7qg" elementId="org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals" commandName="Quick Fix" description="Suggest possible fixes for a problem" category="_vzNsUfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFXPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.select.windowStart" commandName="Select Window Start" description="Select to the start of the window" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFXfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.window.nextPerspective" commandName="Next Perspective" description="Switch to the next perspective" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFXvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.edit.text.scroll.lineDown" commandName="Scroll Line Down" description="Scroll down one line of text" category="_vzNsVPPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFX_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.ToggleCoolbarAction" commandName="Toggle Toolbar Visibility" description="Toggles the visibility of the window toolbar" category="_vzNsVfPGEeSOMOQnBKd7qg"/>
+  <commands xmi:id="_vzNFYPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.navigate.openResource" commandName="Open Resource" description="Open an editor on a particular resource" category="_vzNsUPPGEeSOMOQnBKd7qg">
+    <parameters xmi:id="_vzNFYfPGEeSOMOQnBKd7qg" elementId="filePath" name="File Path" typeId="org.eclipse.ui.ide.resourcePath"/>
+  </commands>
+  <addons xmi:id="_vzNFYvPGEeSOMOQnBKd7qg" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_vzNFY_PGEeSOMOQnBKd7qg" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_vzNFZPPGEeSOMOQnBKd7qg" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_vzNFZfPGEeSOMOQnBKd7qg" elementId="org.eclipse.e4.ui.workbench.commands.model" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_vzNFZvPGEeSOMOQnBKd7qg" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_vzNFZ_PGEeSOMOQnBKd7qg" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_vzNFaPPGEeSOMOQnBKd7qg" elementId="Cleanup Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.cleanupaddon.CleanupAddon"/>
+  <addons xmi:id="_vzNFafPGEeSOMOQnBKd7qg" elementId="DnD Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.dndaddon.DnDAddon"/>
+  <addons xmi:id="_vzNFavPGEeSOMOQnBKd7qg" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
+  <addons xmi:id="_vzNFa_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <categories xmi:id="_vzNFbPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
+  <categories xmi:id="_vzNFbfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.category.perspectives" name="Perspectives" description="Commands for opening perspectives"/>
+  <categories xmi:id="_vzNFbvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.category.project" name="Project"/>
+  <categories xmi:id="_vzNsUPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.category.navigate" name="Navigate"/>
+  <categories xmi:id="_vzNsUfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.category.edit" name="Edit"/>
+  <categories xmi:id="_vzNsUvPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.category.file" name="File"/>
+  <categories xmi:id="_vzNsU_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.ide.markerContents" name="Contents" description="The category for menu contents"/>
+  <categories xmi:id="_vzNsVPPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.category.textEditor" name="Text Editing" description="Text Editing Commands"/>
+  <categories xmi:id="_vzNsVfPGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.category.window" name="Window"/>
+  <categories xmi:id="_vzNsVvPGEeSOMOQnBKd7qg" elementId="org.eclipse.core.commands.categories.autogenerated" name="Uncategorized" description="Commands that were either auto-generated or have no category"/>
+  <categories xmi:id="_vzNsV_PGEeSOMOQnBKd7qg" elementId="org.eclipse.ui.category.help" name="Help"/>
+</application:Application>
